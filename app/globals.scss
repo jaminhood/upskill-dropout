@@ -1,0 +1,32 @@
+@font-face {
+ font-family: "ClashDisplayBold";
+ src: url("../assets/fonts/ClashDisplay/ClashDisplay-Semibold.otf") format("truetype");
+}
+
+@font-face {
+ font-family: "MontserratRegular";
+ src: url("../assets/fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+ font-family: "MontserratBold";
+ src: url("../assets/fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+ font-family: "MontserratBoldItalic";
+ src: url("../assets/fonts/Montserrat/Montserrat-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+ font-family: "UnicaOne";
+ src: url("../assets/fonts/UnicaOne/UnicaOne-Regular.ttf") format("truetype");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+ @apply bg-zinc-50;
+}
