@@ -12,7 +12,7 @@ const FormSection = () => {
     </Paragraph>
     <List>
      <li><strong>Form Controls:</strong> Inside a <TagDesign title="form" /> element, you can include various types of form controls, such as text input fields, radio buttons, checkboxes, select menus, buttons, and more. These controls are used to gather user input.</li>
-     <li><strong>Form Submission:</strong> When a user submits a form (usually by clicking a {`"Submit"`} button), the data entered into the form controls is sent to a web server for processing. The server can then respond to the user's input accordingly, such as saving the data to a database, processing it, or generating a response page.</li>
+     <li><strong>Form Submission:</strong> When a user submits a form (usually by clicking a {`"Submit"`} button), the data entered into the form controls is sent to a web server for processing. The server can then respond to the {`user's`} input accordingly, such as saving the data to a database, processing it, or generating a response page.</li>
     </List>
     <Paragraph>
      Key benefits for using the <TagDesign title="label" /> element:
