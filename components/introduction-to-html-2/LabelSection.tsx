@@ -8,7 +8,7 @@ const LabelSection = () => {
  return (
   <ContentBox title="Label" img={img}>
   <Paragraph>
-   The <TagDesign title="label" /> element is used to associate a text label with an HTML form control, such as an <TagDesign title="input" /> element. The primary purpose of the <TagDesign title="label" /> element is to improve the accessibility and usability of web forms by providing a clear and clickable label for the associated input element. It helps users understand the purpose of the input and improves the form's functionality, especially for users of assistive technologies like screen readers.
+   The <TagDesign title="label" /> element is used to associate a text label with an HTML form control, such as an <TagDesign title="input" /> element. The primary purpose of the <TagDesign title="label" /> element is to improve the accessibility and usability of web forms by providing a clear and clickable label for the associated input element. It helps users understand the purpose of the input and improves the {`form's`} functionality, especially for users of assistive technologies like screen readers.
   </Paragraph>
   <Paragraph>
    {`Here's`} a basic example of how to use the <TagDesign title="input" /> element:

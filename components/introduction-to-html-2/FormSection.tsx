@@ -8,7 +8,7 @@ const FormSection = () => {
  return (
     <ContentBox title="Form" img={img}>
     <Paragraph>
-     The <TagDesign title="form" /> element is used to create a container that holds a collection of interactive form controls and allows users to submit data to a web server. Forms are a fundamental part of web applications and websites, as they enable users to input information, make selections, and interact with web services. Here's an overview of how the <TagDesign title="form" /> element works:
+     The <TagDesign title="form" /> element is used to create a container that holds a collection of interactive form controls and allows users to submit data to a web server. Forms are a fundamental part of web applications and websites, as they enable users to input information, make selections, and interact with web services. {`Here's`} an overview of how the <TagDesign title="form" /> element works:
     </Paragraph>
     <List>
      <li><strong>Form Controls:</strong> Inside a <TagDesign title="form" /> element, you can include various types of form controls, such as text input fields, radio buttons, checkboxes, select menus, buttons, and more. These controls are used to gather user input.</li>
