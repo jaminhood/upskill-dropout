@@ -36,16 +36,25 @@ const InputSection = () => {
    </Paragraph>
    <List>
     <li>
-     <strong>Text:</strong> Creates a single-line text input field.
+     <strong>text:</strong> Creates a single-line text input field.
     </li>
     <li>
-     <strong>{`type="text"`}:</strong> The {`"type"`} attribute specifies the type of input control. In this case, {`it's`} set to {`"text"`} creating a text input field.
+     <strong>password:</strong> Creates a text input field for passwords (characters are usually masked).
     </li>
     <li>
-     <strong>{`name="username"`}:</strong> The {`"type"`} attribute assigns a name to the input field, which is used when submitting a form to identify the data associated with this input.
+     <strong>checkbox:</strong> Creates a checkbox that allows users to select multiple options.
     </li>
     <li>
-     <strong>{`placeholder="Enter your username"`}:</strong> The {`"type"`} attribute provides a hint or example text to the user, suggesting what they should enter into the field.
+     <strong>radio:</strong> Creates a radio button that allows users to select a single option from a list.
+    </li>
+    <li>
+     <strong>submit:</strong> Creates a submit button for submitting forms.
+    </li>
+    <li>
+     <strong>button:</strong> Creates a generic button that can be used for custom JavaScript actions.
+    </li>
+    <li>
+     <strong>file:</strong> Creates a file upload input field.
     </li>
    </List>
   </ContentBox>
