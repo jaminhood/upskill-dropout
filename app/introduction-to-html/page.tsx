@@ -1,3 +1,4 @@
+import hero_bg from "@/assets/hero-bg.jpg"
 import Footer from "@/components/footer"
 import Header from "@/components/header"
 import Hero from "@/components/hero"
@@ -17,7 +18,7 @@ export default function IntroductionToHTML() {
  return (
   <>
    <Header />
-   <Hero />
+   <Hero img={hero_bg} title="Introduction To HTML" />
    <Main>
     <Intro />
     <IDE />
@@ -29,6 +30,7 @@ export default function IntroductionToHTML() {
     <Lists />
     <ImageTag />
     <Meme />
+    {/* <Comments /> */}
    </Main>
    <Footer />
   </>

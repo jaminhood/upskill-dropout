@@ -2,8 +2,26 @@ type ChildrenTypes = {
  children?: React.ReactNode
 }
 
+type HeroOverlayTypes = {
+ img: StaticImageData
+}
+
+type HeroContentTypes = {
+ title: string
+}
+
+type HeroTypes = HeroOverlayTypes & HeroContentTypes
+
 type LensTypes = {
- cls: string
+ cls?: string
+}
+
+type CommentBoxTypes = {
+ data: {
+  comment: string
+  sender: string
+  date: string
+ }
 }
 
 type StarTypes = {
@@ -25,7 +43,6 @@ type ButtonTypes = {
 type InputTypes = {
  label?: string
  id: string
- placeholder: string
  type: string
  value: string
  handleInput: (e: any) => void

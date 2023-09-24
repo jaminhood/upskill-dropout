@@ -33,27 +33,27 @@ const Boilerplate = () => {
    <Paragraph>
     <strong>{`<head>`}:</strong> The <TagDesign title="head" /> section contains metadata and other non-visible information about the web page. Common elements found in the <TagDesign title="head" />{" "}
     section include:
-    <List>
-     <li>
-      <strong>
-       <TagDesign title="meta" /> tags:
-      </strong>{" "}
-      These provide metadata like character encoding and viewport settings.
-     </li>
-     <li>
-      <strong>
-       <TagDesign title="title" /> tag:
-      </strong>{" "}
-      This sets the title of the web page, which appears in the {`browser's`} title bar or tab.
-     </li>
-     <li>
-      <strong>External resource references:</strong> This is where you link to external resources like stylesheets (CSS) and JavaScript files.
-     </li>
-     <li>
-      <strong>Inline styles and scripts:</strong> You can include CSS styles and JavaScript code directly within the <TagDesign title="head" /> section.
-     </li>
-    </List>
    </Paragraph>
+   <List>
+    <li>
+     <strong>
+      <TagDesign title="meta" /> tags:
+     </strong>{" "}
+     These provide metadata like character encoding and viewport settings.
+    </li>
+    <li>
+     <strong>
+      <TagDesign title="title" /> tag:
+     </strong>{" "}
+     This sets the title of the web page, which appears in the {`browser's`} title bar or tab.
+    </li>
+    <li>
+     <strong>External resource references:</strong> This is where you link to external resources like stylesheets (CSS) and JavaScript files.
+    </li>
+    <li>
+     <strong>Inline styles and scripts:</strong> You can include CSS styles and JavaScript code directly within the <TagDesign title="head" /> section.
+    </li>
+   </List>
    <Image src={head_tag} className="w-full object-cover mb-4" alt="" />
    <Paragraph>
     <strong>{`<body>`}:</strong> The <TagDesign title="body" /> section contains the visible content of your web page, such as text, images, links, and other elements. This is where you structure your{" "}

@@ -15,7 +15,8 @@ const Intro = () => {
     such as headings, paragraphs, lists, images, links, and more. Attributes provide additional information about elements and can be used to control their behavior or appearance.
    </Paragraph>
    <Paragraph>
-    <p className="text-[.9rem] leading-loose mb-4">{`Here's`} a brief introduction to HTML:</p>
+    {/* <p className="text-[.9rem] leading-loose mb-4"></p> */}
+    {`Here's`} a brief introduction to HTML:
    </Paragraph>
    <List>
     <li>
