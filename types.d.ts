@@ -102,3 +102,18 @@ type FooterContactBoxTypes = {
   text: string[]
  }
 }
+
+type CodeBlockHeaderTypes = {
+ title: string
+ codeString: string
+}
+
+type CodeBlockTypes = CodeBlockHeaderTypes & {
+ lang: string
+}
+
+type ContentBoxTypes = HeroContentTypes & ChildrenTypes & {
+ codeTitle: string
+ codeString: string
+ codeLang: string
+}

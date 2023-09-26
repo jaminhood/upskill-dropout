@@ -1,14 +1,18 @@
-import Image from "next/image"
 import { FC } from "react"
 import Heading from "./Heading"
+import CodeBlock from "../code-block"
 
-const ContentBox: FC<HeroContentTypes & ChildrenTypes & HeroOverlayTypes> = (props) => {
+const ContentBox: FC<ContentBoxTypes> = (props) => {
  return (
-  <>
+  <article>
    <Heading title={props.title} />
    {props.children}
-   <Image src={props.img} className="w-full object-cover mb-4" alt="" />
-  </>
+   <CodeBlock
+    title={props.codeTitle}
+    codeString={props.codeString}
+    lang={props.codeLang}
+   />
+  </article>
  )
 }
 
