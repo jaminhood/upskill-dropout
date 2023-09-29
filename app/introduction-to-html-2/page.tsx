@@ -1,6 +1,4 @@
 import hero_bg from "@/assets/intro-2.jpg"
-import Footer from "@/components/footer"
-import Header from "@/components/header"
 import Hero from "@/components/hero"
 import AudioSection from "@/components/introduction-to-html-2/AudioSection"
 import CommentsSection from "@/components/introduction-to-html-2/Comments"
@@ -17,7 +15,6 @@ import meme_Img from "@/assets/intro-2-meme.jpg"
 export default function IntroductionToHTML() {
  return (
   <>
-   <Header />
    <Hero title="Introduction To HTML 2" img={hero_bg} />
    <Main>
     <CommentsSection />
@@ -30,7 +27,6 @@ export default function IntroductionToHTML() {
     <FormSection />
     <Meme img={meme_Img} />
    </Main>
-   <Footer />
   </>
  )
 }

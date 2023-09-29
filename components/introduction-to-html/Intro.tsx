@@ -14,10 +14,7 @@ const Intro = () => {
     HTML uses a system of tags and attributes to define the structure and content of a web page. These tags are enclosed in angle brackets {`(<>)`}, and they describe various elements on a web page,
     such as headings, paragraphs, lists, images, links, and more. Attributes provide additional information about elements and can be used to control their behavior or appearance.
    </Paragraph>
-   <Paragraph>
-    {/* <p className="text-[.9rem] leading-loose mb-4"></p> */}
-    {`Here's`} a brief introduction to HTML:
-   </Paragraph>
+   <Paragraph>{`Here's`} a brief introduction to HTML:</Paragraph>
    <List>
     <li>
      <strong>Markup Language:</strong> HTML is a markup language, not a programming language. It consists of a set of instructions (markup tags) that tell web browsers how to display content.
