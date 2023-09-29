@@ -29,39 +29,27 @@ const IndexPage = () => {
     </div>
     <br />
     <div>
-     <div>
-      <label for="email">Email:</label>
-     </div>
-     <div>
-      <input type="email" id="email" />
-     </div>
+     <label for="email">Email:</label>
+     <br />
+     <input type="email" id="email" />
     </div>
     <br />
     <div>
-     <div>
-      <label for="
-     </div>
-     <div>
-      <input type="password" id="password" />
-     </div>
+     <label for="password">Password:</label>
+     <br />
+     <input type="password" id="password" />
     </div>
     <br />
     <div>
-     <div>
-      <label for="phone">Phone Number:</label>
-     </div>
-     <div>
-      <input type="number" id="phone" />
-     </div>
+     <label for="phone">Phone Number:</label>
+     <br />
+     <input type="number" id="phone" />
     </div>
     <br />
     <div>
-     <div>
-      <label for="msg">Message:</label>
-     </div>
-     <div>
-      <textarea id="msg"> </textarea>
-     </div>
+     <label for="msg">Message:</label>
+     <br />
+     <textarea id="msg"> </textarea>
     </div>
     <br />
     <div>
