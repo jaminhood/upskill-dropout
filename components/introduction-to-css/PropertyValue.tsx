@@ -17,7 +17,7 @@ const PropertyValue = () => {
   <ContentBox title="{property: value;}" codeTitle="style.css" codeString={mainString} codeLang="css">
    <Paragraph>
     In CSS, a property-value pair is a fundamental component used to define how HTML elements should be styled. It consists of two parts: a property and a corresponding value. Together, they determine
-    how a specific aspect of an element's presentation should appear. Here's an explanation of each part:
+    how a specific aspect of an {`element's`} presentation should appear. {`Here's`} an explanation of each part:
    </Paragraph>
    <Paragraph>
     <strong>Property: </strong> The property is the attribute or characteristic of an HTML element that you want to style. It represents what aspect of the element you want to change. Common examples
@@ -34,7 +34,7 @@ const PropertyValue = () => {
      <strong>background-color:</strong> Sets the background color of an element.
     </li>
     <li>
-     <strong>border:</strong> Defines the element's border properties (e.g., border width, style, and color).
+     <strong>border:</strong> Defines the {`element's`} border properties (e.g., border width, style, and color).
     </li>
     <li>
      <strong>margin:</strong> Controls the spacing outside an element.

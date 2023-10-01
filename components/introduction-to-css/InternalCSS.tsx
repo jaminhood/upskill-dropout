@@ -35,7 +35,7 @@ const InternalCSS = () => {
   <ContentBox title="Internal CSS" codeString={codeString} codeTitle="Internal CSS" codeLang="html">
    <Paragraph>
     Internal CSS, also known as embedded CSS, is a method of including CSS styling rules directly within an HTML document. Instead of defining styles in an external CSS file or using inline CSS within
-    individual HTML elements, internal CSS is placed within a <TagDesign title="style" /> element in the HTML document's <TagDesign title="head" /> section.
+    individual HTML elements, internal CSS is placed within a <TagDesign title="style" /> element in the HTML {`document's`} <TagDesign title="head" /> section.
    </Paragraph>
    <Paragraph>
     In the example provided, the <TagDesign title="style" /> element within the <TagDesign title="head" /> section contains CSS rules that apply to elements within the HTML document. These styles are
@@ -44,8 +44,8 @@ const InternalCSS = () => {
    <Paragraph>Advantages of using internal CSS:</Paragraph>
    <List>
     <li>
-     <strong>Scope:</strong> Styles defined using internal CSS are scoped to the specific HTML document where they are declared. They won't affect styles on other web pages or elements outside of the
-     document.
+     <strong>Scope:</strong> Styles defined using internal CSS are scoped to the specific HTML document where they are declared. They {`won't`} affect styles on other web pages or elements outside of
+     the document.
     </li>
     <li>
      <strong>Separation of Concerns:</strong> While not as separated as external CSS files, internal CSS still separates styling information from the HTML content, making it easier to maintain and
