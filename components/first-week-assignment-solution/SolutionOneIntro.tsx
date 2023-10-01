@@ -1,6 +1,5 @@
 import Heading from "../shared/Heading"
 import Paragraph from "../shared/Paragraph"
-import TagDesign from "../shared/TagDesign"
 
 const SolutionOneIntro = () => {
  return (
