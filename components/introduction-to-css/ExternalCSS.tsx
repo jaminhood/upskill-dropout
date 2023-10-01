@@ -46,8 +46,8 @@ p {
      <strong>Create a CSS File:</strong> You create a separate {`'.css'`} file that contains all your CSS rules. For example, you might have a file called {`'styles.css'`}.
     </li>
     <li>
-     <strong>Link to HTML:</strong> In your HTML document's <TagDesign title="head" /> section, you include a <TagDesign title="link" /> element that specifies the path to the external CSS file. This
-     link establishes a connection between the HTML document and the CSS file.
+     <strong>Link to HTML:</strong> In your HTML {`document's`} <TagDesign title="head" /> section, you include a <TagDesign title="link" /> element that specifies the path to the external CSS file.
+     This link establishes a connection between the HTML document and the CSS file.
     </li>
    </List>
    <CodeBlock title="index.html" codeString={htmlString} lang="html" />
@@ -61,7 +61,7 @@ p {
    <List>
     <li>
      <strong>Separation of Concerns:</strong> External CSS separates the styling information from the HTML content, promoting cleaner and more maintainable code. This separation makes it easier for
-     web designers and developers to work on the design independently of the page's structure and content.
+     web designers and developers to work on the design independently of the {`page's`} structure and content.
     </li>
     <li>
      <strong>Reusability:</strong> You can reuse the same external CSS file across multiple HTML documents. This is especially valuable for maintaining a consistent design across an entire website.
