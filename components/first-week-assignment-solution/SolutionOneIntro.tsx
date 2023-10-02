@@ -6,7 +6,7 @@ const SolutionOneIntro = () => {
   <>
    <Heading title="Assignment Introduction" />
    <Paragraph>
-    Since {`we've`} had the chance to go over most of the basics of HTML and some cf its common tags. An assignment was assigned to us in other to test our knowledge about HTML. The deadline was
+    Since {`we've`} had the chance to go over most of the basics of HTML and some of its common tags. An assignment was assigned to us in other to test our knowledge about HTML. The deadline was
     yesterday the 28<sup>th</sup> of September, 2023 and so I taught of dropping the solution to the assignment here so we can go over it.
    </Paragraph>
    <Paragraph>

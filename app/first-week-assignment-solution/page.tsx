@@ -7,7 +7,7 @@ import SolutionOneIntro from "@/components/first-week-assignment-solution/Soluti
 import IndexPage from "@/components/first-week-assignment-solution/IndexPage"
 import ImagesPage from "@/components/first-week-assignment-solution/ImagesPage"
 
-export default function IntroductionToHTML() {
+export default function FirstWeekAssignmentSolution() {
  return (
   <>
    <Hero img={hero_bg} title="First Week's Assignment Solution" />
