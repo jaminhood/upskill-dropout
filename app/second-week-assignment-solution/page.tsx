@@ -2,10 +2,10 @@ import hero_bg from "@/assets/second-assignment-hero.webp"
 import Hero from "@/components/hero"
 import Main from "@/components/main"
 import Meme from "@/components/shared/Meme"
-import meme_Img from "@/assets/assignment-meme-1.jpeg"
-import ImagesPage from "@/components/first-week-assignment-solution/ImagesPage"
+import meme_Img from "@/assets/second-assignment-meme.png"
 import SolutionTwoIntro from "@/components/second-week-assignment-solution/SolutionTwoIntro"
 import IndexPage from "@/components/second-week-assignment-solution/IndexPage"
+import StylePage from "@/components/second-week-assignment-solution/StylePage"
 
 export default function FirstWeekAssignmentSolution() {
  return (
@@ -14,7 +14,7 @@ export default function FirstWeekAssignmentSolution() {
    <Main>
     <SolutionTwoIntro />
     <IndexPage />
-    <ImagesPage />
+    <StylePage />
     <Meme img={meme_Img} />
    </Main>
   </>
