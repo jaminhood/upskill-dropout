@@ -102,8 +102,8 @@ const FlexConcept = () => {
      same {`'order'`} value follow in the {`'order'`} they appear in the source code.
     </li>
     <li>
-     <strong>Flex Wrap:</strong> The {`'flex-wrap'`} property determines whether flex items should wrap to a new line if they don't fit within the container's width. You can set it to values like{" "}
-     {`'nowrap'`} (default), {`'wrap'`}, or {`'wrap-reverse'`}.
+     <strong>Flex Wrap:</strong> The {`'flex-wrap'`} property determines whether flex items should wrap to a new line if they {`don't`} fit within the {`container's`} width. You can set it to values
+     like {`'nowrap'`} (default), {`'wrap'`}, or {`'wrap-reverse'`}.
     </li>
     <li>
      <strong>Alignment within Flex Items:</strong> You can control how content is aligned within individual flex items using properties like {`'text-align'`} (for horizontal alignment) and{" "}
