@@ -7,7 +7,7 @@ import SolutionTwoIntro from "@/components/second-week-assignment-solution/Solut
 import IndexPage from "@/components/second-week-assignment-solution/IndexPage"
 import StylePage from "@/components/second-week-assignment-solution/StylePage"
 
-export default function FirstWeekAssignmentSolution() {
+export default function SecondWeekAssignmentSolution() {
  return (
   <>
    <Hero img={hero_bg} title="Second Assignment Solution" />
