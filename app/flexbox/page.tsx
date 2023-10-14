@@ -6,7 +6,9 @@ import meme_Img from "@/assets/flexbox-meme.jpeg"
 import FlexboxIntro from "@/components/flexbox/FlexboxIntro"
 import FlexConcept from "@/components/flexbox/FlexConcept"
 
-export default function FirstWeekAssignmentSolution() {
+export default function Flexbox() {
+ document.title = "FlexBox - UpSkill Dropout"
+
  return (
   <>
    <Hero img={hero_bg} title="FlexBox" />

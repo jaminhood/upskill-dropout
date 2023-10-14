@@ -8,6 +8,8 @@ import IndexPage from "@/components/second-week-assignment-solution/IndexPage"
 import StylePage from "@/components/second-week-assignment-solution/StylePage"
 
 export default function SecondWeekAssignmentSolution() {
+ document.title = "Second Week Assignment Solution - UpSkill Dropout"
+
  return (
   <>
    <Hero img={hero_bg} title="Second Assignment Solution" />
