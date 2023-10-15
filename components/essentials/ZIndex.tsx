@@ -47,7 +47,7 @@ const ZIndex = () => {
   <ContentBox title="z-index Concepts" codeString={codeString} codeTitle="index.html" codeLang="html">
    <Paragraph>
     CSS {`'z-index'`} is a property that controls the stacking order of elements on a web page. It is used to determine which element should appear on top when elements overlap in a web page layout.
-    The higher the {`'z-index'`} value, the closer the element is to the top of the stacking order. Here's what you need to know about {`'z-index'`} along with some sample code:
+    The higher the {`'z-index'`} value, the closer the element is to the top of the stacking order. {`ß`} what you need to know about {`'z-index'`} along with some sample code:
    </Paragraph>
    <List>
     <li>
@@ -77,13 +77,13 @@ const ZIndex = () => {
    <Paragraph>In the Sample Code Below</Paragraph>
    <List>
     <li>
-     {`'box1'`} has a {`'z-index'`} of 2, so it's stacked on top of the other two boxes.
+     {`'box1'`} has a {`'z-index'`} of 2, so {`it's`} stacked on top of the other two boxes.
     </li>
     <li>
      {`'box2'`} has a {`'z-index'`} of 1, making it appear beneath {`'box1'`} but above {`'box3'`}.
     </li>
     <li>
-     {`'box3'`} has the default {`'z-index'`} (0), so it's stacked beneath the other two boxes.
+     {`'box3'`} has the default {`'z-index'`} (0), so {`it's`} stacked beneath the other two boxes.
     </li>
    </List>
   </ContentBox>

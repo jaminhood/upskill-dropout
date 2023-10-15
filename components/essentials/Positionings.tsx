@@ -74,7 +74,7 @@ const Positionings = () => {
      which is usually the viewport.
     </li>
     <li>
-     You can use {`'top'`}, {`'right'`}, {`'bottom'`}, and {`'left'`} properties to precisely control the element's position.
+     You can use {`'top'`}, {`'right'`}, {`'bottom'`}, and {`'left'`} properties to precisely control the {`element's`} position.
     </li>
    </List>
    <CodeBlock title="style.css" codeString={absoluteString} lang="css" />
@@ -84,7 +84,7 @@ const Positionings = () => {
    <List>
     <li>Elements with {`'position: fixed;'`} are positioned relative to the viewport and do not move when the page is scrolled.</li>
     <li>
-     The {`'top'`}, {`'right'`}, {`'bottom'`}, and {`'left'`} properties to specify the element's position on the viewport.
+     The {`'top'`}, {`'right'`}, {`'bottom'`}, and {`'left'`} properties to specify the {`element's`} position on the viewport.
     </li>
    </List>
    <CodeBlock title="style.css" codeString={fixedString} lang="css" />
