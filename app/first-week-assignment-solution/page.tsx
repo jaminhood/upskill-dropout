@@ -8,8 +8,6 @@ import IndexPage from "@/components/first-week-assignment-solution/IndexPage"
 import ImagesPage from "@/components/first-week-assignment-solution/ImagesPage"
 
 export default function FirstWeekAssignmentSolution() {
- document.title = "First Week Assignment Solution - UpSkill Dropout"
-
  return (
   <>
    <Hero img={hero_bg} title="First Week's Assignment Solution" />

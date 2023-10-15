@@ -9,8 +9,6 @@ import InputBorderAndOutline from "@/components/things-to-know-before-assignment
 import BoxShadow from "@/components/things-to-know-before-assignment-2/BoxShadow"
 
 export default function ThingsToKnowBeforeAssignmentTwo() {
- document.title = "Things To Know Before Second Assignment - UpSkill Dropout"
-
  return (
   <>
    <Hero img={hero_bg} title="Things To Know Before The Second Assignment" />

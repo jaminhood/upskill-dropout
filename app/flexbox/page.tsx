@@ -7,8 +7,6 @@ import FlexboxIntro from "@/components/flexbox/FlexboxIntro"
 import FlexConcept from "@/components/flexbox/FlexConcept"
 
 export default function Flexbox() {
- document.title = "FlexBox - UpSkill Dropout"
-
  return (
   <>
    <Hero img={hero_bg} title="FlexBox" />

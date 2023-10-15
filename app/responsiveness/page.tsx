@@ -9,8 +9,6 @@ import MediaQueries from "@/components/responsiveness/MediaQueries"
 import FlexBoxInResponsiveDesign from "@/components/responsiveness/FlexBoxInResponsiveDesign"
 
 export default function Responsiveness() {
- document.title = "Responsive CSS - UpSkill Dropout"
-
  return (
   <>
    <Hero img={hero_bg} title="Responsive Designs" />

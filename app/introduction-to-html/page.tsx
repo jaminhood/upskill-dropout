@@ -14,8 +14,6 @@ import Meme from "@/components/shared/Meme"
 import meme_Img from "@/assets/html-meme-1.jpg"
 
 export default function IntroductionToHTML() {
- document.title = "Introduction To HTML - UpSkill Dropout"
-
  return (
   <>
    <Hero img={hero_bg} title="Introduction To HTML" />

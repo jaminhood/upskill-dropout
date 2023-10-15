@@ -13,8 +13,6 @@ import Meme from "@/components/shared/Meme"
 import meme_Img from "@/assets/intro-2-meme.jpg"
 
 export default function IntroductionToHTML2() {
- document.title = "Introduction To HTML 2 - UpSkill Dropout"
-
  return (
   <>
    <Hero title="Introduction To HTML 2" img={hero_bg} />
