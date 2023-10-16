@@ -67,8 +67,10 @@ const FlexboxOrder = () => {
    </Paragraph>
    <List>
     <li>{`'order'`} is particularly useful for creating responsive layouts where the order of items needs to change based on screen size or user interactions.</li>
-    <li>It's valuable for reorganizing items in a way that makes sense for various viewports, like rearranging navigation menus or changing the order of content blocks.</li>
-    <li>It's essential to use {`'order'`} judiciously, as overusing it can lead to confusion and difficulties in maintaining the code.</li>
+    <li>{`It's`} valuable for reorganizing items in a way that makes sense for various viewports, like rearranging navigation menus or changing the order of content blocks.</li>
+    <li>
+     {`It's`} essential to use {`'order'`} judiciously, as overusing it can lead to confusion and difficulties in maintaining the code.
+    </li>
    </List>
    <Paragraph>
     <strong>Caveats:</strong>
