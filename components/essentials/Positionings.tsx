@@ -2,7 +2,6 @@ import CodeBlock from "../code-block"
 import Heading from "../shared/Heading"
 import List from "../shared/List"
 import Paragraph from "../shared/Paragraph"
-import TagDesign from "../shared/TagDesign"
 
 const Positionings = () => {
  const staticString = `.static-box {

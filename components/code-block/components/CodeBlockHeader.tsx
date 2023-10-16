@@ -10,7 +10,7 @@ const CodeBlockHeader: FC<CodeBlockHeaderTypes> = (props) => {
  const handleCopy = () => {
   navigator.clipboard.writeText(codeString)
   setCopy(true)
-  setTimeout(() => setCopy(false), 3000)
+  setTimeout(() => setCopy(false), 1000)
  }
 
  return (
@@ -24,9 +24,7 @@ const CodeBlockHeader: FC<CodeBlockHeaderTypes> = (props) => {
      <span>Copied</span>
     </div>
    ) : (
-    <div
-     className="flex gap-2 items-center cursor-pointer"
-     onClick={handleCopy}>
+    <div className="flex gap-2 items-center cursor-pointer" onClick={handleCopy}>
      <span>
       <FaCopy size={15} />
      </span>
