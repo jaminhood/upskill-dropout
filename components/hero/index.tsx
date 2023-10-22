@@ -5,7 +5,7 @@ import HeroOverlay from "./components/HeroOverlay"
 
 const Hero: FC<HeroTypes> = (props) => {
  return (
-  <Section cls="md:h-[80vh] min-h-[50vh]">
+  <Section cls="md:h-[80vh] min-h-[60vh]">
    <HeroOverlay img={props.img} />
    <HeroContent title={props.title} />
   </Section>
