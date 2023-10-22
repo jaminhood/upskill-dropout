@@ -21,7 +21,7 @@ const FixedHeight = () => {
    </Paragraph>
    <Paragraph>
     <strong>Search Engine Optimization (SEO):</strong> Search engines crawl web pages to index and rank content. Fixed heights can hide or obscure content from search engines, potentially affecting
-    your site's search engine rankings and visibility in search results.
+    your {`site's`} search engine rankings and visibility in search results.
    </Paragraph>
    <Paragraph>
     <strong>Print Styles:</strong> When a user wants to print a web page, fixed heights can lead to content being cut off or not displaying as expected on the printed page. Designers often need to
@@ -33,7 +33,7 @@ const FixedHeight = () => {
    </Paragraph>
    <Paragraph>
     <strong>User Experience:</strong> Fixed heights can make it difficult for users to read and interact with content, particularly when using different devices or screen sizes. A design that adjusts
-    to the content's needs often provides a better user experience.
+    to the {`content's`} needs often provides a better user experience.
    </Paragraph>
    <Paragraph>Instead of using fixed heights, designers should consider using techniques that allow for flexible, fluid layouts. These can include:</Paragraph>
    <List>

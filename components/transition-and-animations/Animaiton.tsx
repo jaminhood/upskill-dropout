@@ -33,7 +33,7 @@ const Animaiton = () => {
    </Paragraph>
    <Paragraph>
     CSS animations are defined using keyframes. Keyframes define how an element should appear at various points during the animation. You specify the styles for an element at specific percentages of
-    the animation's duration.
+    the {`animation's`} duration.
    </Paragraph>
    <CodeBlock title="Keyframes" codeString={keyframesString} lang="css" />
    <Paragraph>In this example, the {`'slide'`} animation moves an element from the left edge of its container to 100px to the right.</Paragraph>

@@ -41,7 +41,7 @@ padding: 0.5rem; /* Padding size is relative to the root font size */
     <li>{`'em'`} is a relative unit of measurement.</li>
     <li>It is relative to the font size of its parent element. If a parent element has a font size of 16px, 1em is equal to 16px.</li>
     <li>Allows for scalability and responsiveness because it adapts to changes in font size up the DOM tree.</li>
-    <li>Useful for creating designs where text and element sizes should adapt proportionally to the user's preferred font size.</li>
+    <li>Useful for creating designs where text and element sizes should adapt proportionally to the {`user's`} preferred font size.</li>
    </List>
    <CodeBlock title="em" codeString={emString} lang="css" />
    <Paragraph>
