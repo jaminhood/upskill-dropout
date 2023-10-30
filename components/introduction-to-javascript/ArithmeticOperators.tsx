@@ -48,11 +48,11 @@ var sum = a + b; // sum is 15`
         </li>
       </List>
       <Paragraph>Here are some examples of how to use arithmetic operators in JavaScript:</Paragraph>
-      <CodeBlock title="arithmetic.js" lang="JavaScript" codeString={varOne} />
+      <CodeBlock title="arithmetic.js" lang="javascript" codeString={varOne} />
       <Paragraph>Arithmetic operators can also be used with variables and expressions. For example:</Paragraph>
-      <CodeBlock title="assign-variables.js" lang="JavaScript" codeString={varTwo} />
+      <CodeBlock title="assign-variables.js" lang="javascript" codeString={varTwo} />
       <Paragraph>Arithmetic operators can be used to create complex mathematical expressions. For example:</Paragraph>
-      <CodeBlock title="assign-variables.js" lang="JavaScript" codeString={varThree} />
+      <CodeBlock title="assign-variables.js" lang="javascript" codeString={varThree} />
       <Paragraph>Arithmetic operators are an essential part of JavaScript. They can be used to perform a wide variety of mathematical operations on numbers.</Paragraph>
     </>
   )

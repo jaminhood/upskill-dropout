@@ -20,12 +20,12 @@ var children = ["Alice", "Bob"];`
       <Paragraph>
         A variable is a named container that can store data. To declare a variable, you use the <SpecialKeyDesign title="var" /> keyword, followed by the variable name. For example:
       </Paragraph>
-      <CodeBlock title="variables.js" lang="JavaScript" codeString={varOne} />
+      <CodeBlock title="variables.js" lang="javascript" codeString={varOne} />
       <Paragraph>
         This declares a variable called <SpecialKeyDesign title="name" /> and assigns it the string value {`"John Doe"`}.
       </Paragraph>
       <Paragraph>Variables can store any type of data, including strings, numbers, objects, and arrays. To assign a value to a variable, you use the equals sign {`(=)`}. For example:</Paragraph>
-      <CodeBlock title="assign-variables.js" lang="JavaScript" codeString={varTwo} />
+      <CodeBlock title="assign-variables.js" lang="javascript" codeString={varTwo} />
       <Paragraph>
         These statements assign the values 30, true, and {`["Alice", "Bob"]`} to the variables <SpecialKeyDesign title="age" />, <SpecialKeyDesign title="isMarried" />, and{" "}
         <SpecialKeyDesign title="children" />, respectively.
@@ -33,7 +33,7 @@ var children = ["Alice", "Bob"];`
       <Paragraph>
         You can also declare a variable without assigning it a value. In this case, the variable is said to be <SpecialKeyDesign title="undefined" />. For example:
       </Paragraph>
-      <CodeBlock title="assign-variables.js" lang="JavaScript" codeString={varThree} />
+      <CodeBlock title="assign-variables.js" lang="javascript" codeString={varThree} />
       <Paragraph>
         This declares a variable called <SpecialKeyDesign title="favoriteFood" /> without assigning it a value. You can then assign a value to the variable later in your code.
       </Paragraph>

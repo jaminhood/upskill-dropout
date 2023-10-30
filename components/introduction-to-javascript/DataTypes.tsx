@@ -32,31 +32,31 @@ console.log( typeof children ); // Array`
       <Paragraph>JavaScript has seven data types:</Paragraph>
       <Heading accentTitle="String" />
       <Paragraph>A string is a sequence of characters. Strings can be enclosed in either single or double quotes. For example:</Paragraph>
-      <CodeBlock title="datatypes.js" lang="JavaScript" codeString={varOne} />
+      <CodeBlock title="datatypes.js" lang="javascript" codeString={varOne} />
       <Heading accentTitle="Number" />
       <Paragraph>A number can be an integer or a {`floating-point`} number. For example:</Paragraph>
-      <CodeBlock title="datatypes.js" lang="JavaScript" codeString={varTwo} />
+      <CodeBlock title="datatypes.js" lang="javascript" codeString={varTwo} />
       <Heading accentTitle="Boolean" />
       <Paragraph>A number can be an integer or a {`floating-point`} number. For example:</Paragraph>
-      <CodeBlock title="datatypes.js" lang="JavaScript" codeString={varThree} />
+      <CodeBlock title="datatypes.js" lang="javascript" codeString={varThree} />
       <Heading accentTitle="Null" />
       <Paragraph>
         The <SpecialKeyDesign title="null" /> value represents the absence of a value. For example:
       </Paragraph>
-      <CodeBlock title="datatypes.js" lang="JavaScript" codeString={varFour} />
+      <CodeBlock title="datatypes.js" lang="javascript" codeString={varFour} />
       <Heading accentTitle="Undefined" />
       <Paragraph>
         The <SpecialKeyDesign title="undefined" /> value represents a variable that has not been assigned a value. For example:
       </Paragraph>
-      <CodeBlock title="datatypes.js" lang="JavaScript" codeString={varFive} />
+      <CodeBlock title="datatypes.js" lang="javascript" codeString={varFive} />
       <Heading accentTitle="Object" />
       <Paragraph>An object is a collection of properties. Each property has a name and a value. For example:</Paragraph>
-      <CodeBlock title="datatypes.js" lang="JavaScript" codeString={varSix} />
+      <CodeBlock title="datatypes.js" lang="javascript" codeString={varSix} />
       <Heading accentTitle="Array" />
       <Paragraph>An array is an ordered list of items. Arrays can store any type of data, including strings, numbers, objects, and other arrays. For example:</Paragraph>
-      <CodeBlock title="datatypes.js" lang="JavaScript" codeString={varSeven} />
+      <CodeBlock title="datatypes.js" lang="javascript" codeString={varSeven} />
       <Paragraph>You can use the typeof operator to check the data type of a variable. For example:</Paragraph>
-      <CodeBlock title="datatypes.js" lang="JavaScript" codeString={varString} />
+      <CodeBlock title="datatypes.js" lang="javascript" codeString={varString} />
     </>
   )
 }
