@@ -18,7 +18,6 @@ export default function IntroductionToJavaScript2() {
         <Logicals />
         <Switch />
         <Meme img={meme_Img} />
-        {/* <Comments /> */}
       </Main>
     </>
   )

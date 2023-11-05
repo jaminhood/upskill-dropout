@@ -14,22 +14,21 @@ import Meme from "@/components/shared/Meme"
 import meme_Img from "@/assets/html-meme-1.jpg"
 
 export default function IntroductionToHTML() {
- return (
-  <>
-   <Hero img={hero_bg} title="Introduction To HTML" />
-   <Main>
-    <Intro />
-    <IDE />
-    <Tags />
-    <Boilerplate />
-    <Headings />
-    <ParagraphTag />
-    <Anchor />
-    <Lists />
-    <ImageTag />
-    <Meme img={meme_Img} />
-    {/* <Comments /> */}
-   </Main>
-  </>
- )
+  return (
+    <>
+      <Hero img={hero_bg} title="Introduction To HTML" />
+      <Main>
+        <Intro />
+        <IDE />
+        <Tags />
+        <Boilerplate />
+        <Headings />
+        <ParagraphTag />
+        <Anchor />
+        <Lists />
+        <ImageTag />
+        <Meme img={meme_Img} />
+      </Main>
+    </>
+  )
 }

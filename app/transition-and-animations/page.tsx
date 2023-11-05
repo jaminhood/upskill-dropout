@@ -10,17 +10,17 @@ import FixedHeight from "@/components/transition-and-animations/FixedHeight"
 import RemEmPx from "@/components/transition-and-animations/RemEmPx"
 
 export default function TransitionAndAnimations() {
- return (
-  <>
-   <Hero img={hero_bg} title="Transitions, Transforms and Animations" />
-   <Main>
-    <Transitions />
-    <Transform />
-    <Animaiton />
-    <FixedHeight />
-    <RemEmPx />
-    <Meme img={meme_Img} />
-   </Main>
-  </>
- )
+  return (
+    <>
+      <Hero img={hero_bg} title="Transitions, Transforms and Animations" />
+      <Main>
+        <Transitions />
+        <Transform />
+        <Animaiton />
+        <FixedHeight />
+        <RemEmPx />
+        <Meme img={meme_Img} />
+      </Main>
+    </>
+  )
 }

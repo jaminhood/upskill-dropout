@@ -8,15 +8,15 @@ import IndexPage from "@/components/second-week-assignment-solution/IndexPage"
 import StylePage from "@/components/second-week-assignment-solution/StylePage"
 
 export default function SecondWeekAssignmentSolution() {
- return (
-  <>
-   <Hero img={hero_bg} title="Second Assignment Solution" />
-   <Main>
-    <SolutionTwoIntro />
-    <IndexPage />
-    <StylePage />
-    <Meme img={meme_Img} />
-   </Main>
-  </>
- )
+  return (
+    <>
+      <Hero img={hero_bg} title="Second Assignment Solution" />
+      <Main>
+        <SolutionTwoIntro />
+        <IndexPage />
+        <StylePage />
+        <Meme img={meme_Img} />
+      </Main>
+    </>
+  )
 }

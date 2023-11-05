@@ -7,14 +7,14 @@ import FlexboxIntro from "@/components/flexbox/FlexboxIntro"
 import FlexConcept from "@/components/flexbox/FlexConcept"
 
 export default function Flexbox() {
- return (
-  <>
-   <Hero img={hero_bg} title="FlexBox" />
-   <Main>
-    <FlexboxIntro />
-    <FlexConcept />
-    <Meme img={meme_Img} />
-   </Main>
-  </>
- )
+  return (
+    <>
+      <Hero img={hero_bg} title="FlexBox" />
+      <Main>
+        <FlexboxIntro />
+        <FlexConcept />
+        <Meme img={meme_Img} />
+      </Main>
+    </>
+  )
 }

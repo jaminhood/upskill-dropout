@@ -7,14 +7,14 @@ import Colors from "@/components/navigation-and-colors/Colors"
 import Navigation from "@/components/navigation-and-colors/Navigation"
 
 export default function NavigationAndColors() {
- return (
-  <>
-   <Hero img={hero_bg} title="Navigation & Colors" />
-   <Main>
-    <Colors />
-    <Navigation />
-    <Meme img={meme_Img} />
-   </Main>
-  </>
- )
+  return (
+    <>
+      <Hero img={hero_bg} title="Navigation & Colors" />
+      <Main>
+        <Colors />
+        <Navigation />
+        <Meme img={meme_Img} />
+      </Main>
+    </>
+  )
 }

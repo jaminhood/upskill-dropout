@@ -9,16 +9,16 @@ import MediaQueries from "@/components/responsiveness/MediaQueries"
 import FlexBoxInResponsiveDesign from "@/components/responsiveness/FlexBoxInResponsiveDesign"
 
 export default function Responsiveness() {
- return (
-  <>
-   <Hero img={hero_bg} title="Responsive Designs" />
-   <Main>
-    <ResponsivenessIntroduction />
-    <BreakPoints />
-    <MediaQueries />
-    <FlexBoxInResponsiveDesign />
-    <Meme img={meme_Img} />
-   </Main>
-  </>
- )
+  return (
+    <>
+      <Hero img={hero_bg} title="Responsive Designs" />
+      <Main>
+        <ResponsivenessIntroduction />
+        <BreakPoints />
+        <MediaQueries />
+        <FlexBoxInResponsiveDesign />
+        <Meme img={meme_Img} />
+      </Main>
+    </>
+  )
 }

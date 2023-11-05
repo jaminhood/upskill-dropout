@@ -22,7 +22,6 @@ export default function IntroductionToJavaScript() {
         <DataTypes />
         <ArithmeticOperators />
         <Meme img={meme_Img} />
-        {/* <Comments /> */}
       </Main>
     </>
   )

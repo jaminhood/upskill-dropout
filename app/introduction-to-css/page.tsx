@@ -11,18 +11,18 @@ import CSSSelector from "@/components/introduction-to-css/CSSSelector"
 import PropertyValue from "@/components/introduction-to-css/PropertyValue"
 
 export default function IntroductionToCSS() {
- return (
-  <>
-   <Hero img={hero_bg} title="Introduction to CSS" />
-   <Main>
-    <CSSIntro />
-    <InlineCSS />
-    <InternalCSS />
-    <ExternalCSS />
-    <CSSSelector />
-    <PropertyValue />
-    <Meme img={meme_Img} />
-   </Main>
-  </>
- )
+  return (
+    <>
+      <Hero img={hero_bg} title="Introduction to CSS" />
+      <Main>
+        <CSSIntro />
+        <InlineCSS />
+        <InternalCSS />
+        <ExternalCSS />
+        <CSSSelector />
+        <PropertyValue />
+        <Meme img={meme_Img} />
+      </Main>
+    </>
+  )
 }

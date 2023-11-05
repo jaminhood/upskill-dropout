@@ -8,15 +8,15 @@ import ZIndex from "@/components/essentials/ZIndex"
 import BeforeAndAfter from "@/components/essentials/BeforeAndAfter"
 
 export default function Essentials() {
- return (
-  <>
-   <Hero img={hero_bg} title="CSS Essentials" />
-   <Main>
-    <Positionings />
-    <ZIndex />
-    <BeforeAndAfter />
-    <Meme img={meme_Img} />
-   </Main>
-  </>
- )
+  return (
+    <>
+      <Hero img={hero_bg} title="CSS Essentials" />
+      <Main>
+        <Positionings />
+        <ZIndex />
+        <BeforeAndAfter />
+        <Meme img={meme_Img} />
+      </Main>
+    </>
+  )
 }

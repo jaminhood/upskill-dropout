@@ -9,16 +9,16 @@ import InputBorderAndOutline from "@/components/things-to-know-before-assignment
 import BoxShadow from "@/components/things-to-know-before-assignment-2/BoxShadow"
 
 export default function ThingsToKnowBeforeAssignmentTwo() {
- return (
-  <>
-   <Hero img={hero_bg} title="Things To Know Before The Second Assignment" />
-   <Main>
-    <ThingsToKnowIntro />
-    <BoxShadow />
-    <InputBorderAndOutline />
-    <InputPlaceholder />
-    <Meme img={meme_Img} />
-   </Main>
-  </>
- )
+  return (
+    <>
+      <Hero img={hero_bg} title="Things To Know Before The Second Assignment" />
+      <Main>
+        <ThingsToKnowIntro />
+        <BoxShadow />
+        <InputBorderAndOutline />
+        <InputPlaceholder />
+        <Meme img={meme_Img} />
+      </Main>
+    </>
+  )
 }
