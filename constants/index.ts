@@ -13,6 +13,7 @@ import transition from "@/assets/transition-and-animation-hero.jpg"
 import introToJS from "@/assets/intro-to-js-hero.png"
 import introToJS2 from "@/assets/intro-to-js-2.jpeg"
 import functionInJS from "@/assets/functions-in-js.png"
+import objectsAndArrays from "@/assets/objects-and-arrays-hero.jpg"
 
 export const data = [
   {
@@ -86,8 +87,13 @@ export const data = [
     img: introToJS2,
   },
   {
-    link: `/functions-in-js `,
+    link: `/functions-in-js`,
     title: `Functions In JavaScript`,
     img: functionInJS,
+  },
+  {
+    link: `/objects-and-arrays`,
+    title: `Objects and Arrays`,
+    img: objectsAndArrays,
   },
 ]
