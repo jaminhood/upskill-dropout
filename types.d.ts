@@ -1,119 +1,128 @@
 type ChildrenTypes = {
- children?: React.ReactNode
+  children?: React.ReactNode
 }
 
 type HeroOverlayTypes = {
- img: StaticImageData
+  img: StaticImageData
 }
 
 type HeroContentTypes = {
- title: string
+  title: string
 }
 
 type HeroTypes = HeroOverlayTypes & HeroContentTypes
 
 type LensTypes = {
- cls?: string
+  cls?: string
 }
 
 type CommentBoxTypes = {
- data: {
-  comment: string
-  sender: string
-  date: string
- }
+  data: {
+    comment: string
+    sender: string
+    date: string
+  }
 }
 
 type StarTypes = {
- starName: `gray` | `white` | `purple` | `light`
- cls: string
+  starName: `gray` | `white` | `purple` | `light`
+  cls: string
 }
 
 type SectionTypes = ChildrenTypes & {
- cls?: string
- id?: string
+  cls?: string
+  id?: string
 }
 
 type ButtonTypes = {
- text: string
- cls?: string
- handleClick?: () => void
+  text: string
+  cls?: string
+  handleClick?: () => void
 }
 
 type InputTypes = {
- label?: string
- id: string
- type: string
- value: string
- handleInput: (e: any) => void
+  label?: string
+  id: string
+  type: string
+  value: string
+  handleInput: (e: any) => void
 }
 
 type AttrubutesInfoBoxTypes = ChildrenTypes & {
- title: string
+  title: string
 }
 
 type HeadingTypes = ChildrenTypes & {
- title?: string
- accentTitle?: string
- center?: boolean
+  title?: string
+  accentTitle?: string
+  center?: boolean
 }
 
 type TimelineCardTypes = {
- data: {
-  id: number
-  date: string
-  title: string
-  paragraph: string
- }
+  data: {
+    id: number
+    date: string
+    title: string
+    paragraph: string
+  }
 }
 
 type PrizeCardTypes = {
- data: {
-  id: number
-  rank: string
-  price: string
-  img: StaticImageData
- }
+  data: {
+    id: number
+    rank: string
+    price: string
+    img: StaticImageData
+  }
 }
 
 type PartnerTypes = {
- data: {
-  id: number
-  img: StaticImageData
- }
+  data: {
+    id: number
+    img: StaticImageData
+  }
 }
 
 type TimelineCardDirTypes = TimelineCardTypes & {
- dir: `l` | `r`
+  dir: `l` | `r`
 }
 
 type NumberType = {
- data: number
+  data: number
 }
 
 type PartnersLineType = {
- dir: `h` | `v`
+  dir: `h` | `v`
 }
 
 type FooterContactBoxTypes = {
- data: {
-  id: number
-  name: string
-  text: string[]
- }
+  data: {
+    id: number
+    name: string
+    text: string[]
+  }
 }
 
 type CodeBlockHeaderTypes = {
- title: string
- codeString: string
+  title: string
+  codeString: string
 }
 
 type CodeBlockTypes = CodeBlockHeaderTypes & {
- lang: string
+  lang: string
 }
 
-type ContentBoxTypes = HeroContentTypes & ChildrenTypes & {
- codeTitle: string
- codeString: string
- codeLang: string
+type ContentBoxTypes = HeroContentTypes &
+  ChildrenTypes & {
+    codeTitle: string
+    codeString: string
+    codeLang: string
+  }
+
+type LessonBoxTypes = {
+  lesson: {
+    link: string
+    title: string
+    img: StaticImageData
+  }
 }
